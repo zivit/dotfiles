@@ -132,12 +132,12 @@ alsa_monitor.rules = {
       --["dither.method"]          = "none",  -- "rectangular", "triangular" or "shaped5"
       --["audio.channels"]         = 2,
       ["audio.format"]           = "S24LE",
-      ["audio.rate"]             = 96000,
+      ["audio.rate"]             = 192000,
       ["audio.allowed-rates"]    = "32000,44100,48000,88200,96000,192000,352000,384000",
       --["audio.position"]         = "FL,FR",
-      --["api.alsa.period-size"]   = 1024,
+      ["api.alsa.period-size"]   = 256,
       --["api.alsa.period-num"]    = 2,
-      --["api.alsa.headroom"]      = 0,
+      ["api.alsa.headroom"]      = 8192,
       --["api.alsa.start-delay"]   = 0,
       --["api.alsa.disable-mmap"]  = false,
       --["api.alsa.disable-batch"] = false,
@@ -146,7 +146,7 @@ alsa_monitor.rules = {
       --["latency.internal.rate"]  = 0
       --["latency.internal.ns"]    = 0
       --["clock.name"]             = "api.alsa.0"
-      --["session.suspend-timeout-seconds"] = 5,  -- 0 disables suspend
+      ["session.suspend-timeout-seconds"] = 0,  -- 0 disables suspend, (old value is 5)
     },
   },
 }

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo pacman -S lazygit github-cli yay thefuck ripgrep fd lsd bat rustup steam github-cli unzip make ninja git-delta
+sudo pacman -S lazygit github-cli yay thefuck ripgrep fd lsd bat rustup steam github-cli unzip make ninja git-delta xsel bash-language-server
 
 yay -S autojump bluemail
 rustup install stable

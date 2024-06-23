@@ -11,6 +11,7 @@
 	helper = !/usr/bin/gh auth git-credential
 [core]
     pager = delta
+	editor = nvim
 [interactive]
     diffFilter = delta --color-only
 [delta]
@@ -25,3 +26,5 @@
     conflictstyle = diff3
 [diff]
     colorMoved = default
+[code]
+	editor = --list

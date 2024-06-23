@@ -122,6 +122,7 @@ alias l="lsd -l"
 alias la="lsd -a"
 alias ls="lsd"
 alias ll="lsd -l"
+alias n="nvim"
 
 source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 export LC_ALL=en_US.UTF-8
