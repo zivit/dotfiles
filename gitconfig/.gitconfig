@@ -1,0 +1,30 @@
+[init]
+	defaultBranch = main
+[user]
+	email = zinc.vitaliy@gmail.com
+	name = zivit
+[credential "https://github.com"]
+	helper =
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper =
+	helper = !/usr/bin/gh auth git-credential
+[core]
+    pager = delta
+	editor = nvim
+[interactive]
+    diffFilter = delta --color-only
+[delta]
+    navigate = true
+    light = true
+    features = side-by-side line-numbers decorations
+    plus-style = syntax "#001800"
+    plus-emph-style = syntax "#004800"
+    minus-style = syntax "#1f0001"
+    minus-emph-style = syntax "#4f0001"
+[merge]
+    conflictstyle = diff3
+[diff]
+    colorMoved = default
+[code]
+	editor = --list

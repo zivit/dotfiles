@@ -1,0 +1,7 @@
+require "setup.cmp"
+require "setup.dap"
+require "setup.lspconfig"
+require "setup.lualine"
+require "setup.navic"
+require "setup.telescope"
+require "setup.ufo"
