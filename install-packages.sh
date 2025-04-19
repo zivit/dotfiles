@@ -3,31 +3,43 @@
 sudo pacman -S \
     bash-language-server \
     bat \
+    brightnessctl \
     cloc \
     cmake \
+    dunst \
     fd \
     gcc \
     git-delta \
     github-cli \
     goverlay \
+    grim \
+    grub-btrfs \
     krita \
     lazygit \
     lsd \
     lua-language-server \
     make \
+    mako \
+    man-db \
     neofetch \
     neovide \
     ninja \
     obs-studio \
+    playerctl \
     python \
     python-pip \
     python-pipx \
     ripgrep \
     rustup \
+    slurp \
+    snapper \
+    snap-pac \
     stow \
+    swayidle \
+    swaylock \
     thefuck \
-    wl-clipboard \
     unzip \
+    wl-clipboard \
 
 cd /tmp
 sudo pacman -S --needed git base-devel

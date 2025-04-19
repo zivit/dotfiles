@@ -130,3 +130,6 @@ export BAT_THEME="OneHalfDark"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+# Created by `pipx` on 2025-04-19 09:07:26
+export PATH="$PATH:/home/zivit/.local/bin"
