@@ -44,14 +44,6 @@ if vim.g.neovide then
     vim.o.guifont = "FiraCode Nerd Font Mono:h12"
 end
 
-vim.g.startup_bookmarks = {
-    ["A"] = '~/work/git/MON700-app',
-    ["F"] = '~/work/git/MON700-FileSystem',
-    ["N"] = '~/.config/nvim',
-    ["U"] = '~/work/git/uniport_com',
-    ["M"] = '~/work/git/MON700-modules',
-}
-
 local signs = { Error = "", Warn = "", Hint = "󰌵", Info = "" }
 for type, icon in pairs(signs) do
     local hl = "DiagnosticSign" .. type

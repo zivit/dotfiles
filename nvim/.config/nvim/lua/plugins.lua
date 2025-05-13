@@ -357,11 +357,21 @@ return {
     },
     "slint-ui/vim-slint",
     {
-        "startup-nvim/startup.nvim",
-        dependencies = { "nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim" },
+        "ahmedkhalf/project.nvim",
         config = function()
-            require "startup".setup({ theme = "startify" })
+            require("project_nvim").setup {
+                patterns = { ".git", "_darcs", ".hg", ".bzr", ".svn", "Makefile", "CMakeFiles.txt", "package.json" },
+            }
         end
+    },
+    {
+        'nvimdev/dashboard-nvim',
+        event = 'VimEnter',
+        config = function()
+            require('dashboard').setup {
+            }
+        end,
+        dependencies = {'nvim-tree/nvim-web-devicons'}
     },
     { "stevearc/overseer.nvim",  config = function() require("overseer").setup() end },
     { "windwp/nvim-autopairs",   config = function() require("nvim-autopairs").setup() end },
@@ -391,6 +401,5 @@ return {
             { "stevearc/dressing.nvim" } -- optional: to have the same UI shown in the GIF
         }
     },
-    "LintaoAmons/cd-project.nvim",
     "Shadowsith/vim-ruby-autocomplete",
 }
