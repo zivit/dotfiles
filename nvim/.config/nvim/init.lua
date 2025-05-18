@@ -31,7 +31,7 @@ vim.o.wrap = true
 if vim.g.neovide then
     vim.g.neovide_remember_window_size = 1
     vim.g.neovide_input_macos_option_key_is_meta = 'only_left'
-    vim.g.neovide_refresh_rate = 60
+    -- vim.g.neovide_refresh_rate = 60
     vim.g.neovide_refresh_rate_idle = 5
     vim.g.neovide_cursor_vfx_mode = "railgun"
     vim.g.neovide_opacity = 0.9
@@ -41,7 +41,7 @@ if vim.g.neovide then
     vim.g.neovide_light_angle_degrees = 45
     vim.g.neovide_light_radius = 5
 
-    vim.o.guifont = "FiraCode Nerd Font Mono:h11"
+    -- vim.o.guifont = "FiraCode Nerd Font Mono:h11"
 end
 
 local signs = { Error = "", Warn = "", Hint = "󰌵", Info = "" }

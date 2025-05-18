@@ -10,6 +10,7 @@ sudo pacman -S \
     fd \
     firefox \
     gcc \
+    ghostty \
     git-delta \
     github-cli \
     goverlay \
@@ -44,6 +45,7 @@ sudo pacman -S \
     swayidle \
     swaylock \
     thefuck \
+    tldr \
     ttf-jetbrains-mono-nerd \
     unzip \
     wl-clipboard \
