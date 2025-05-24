@@ -8,14 +8,22 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 
 plugins=(
     autojump
-    git
     colored-man-pages
     colorize
     command-not-found
-    # fd
-    # ripgrep
+    fzf
+    gh
+    git
+    git-flow
+    gitignore
+    pip
+    python
     rust
+    sudo
     thefuck
+    tldr
+    vi-mode
+    zsh-abbr
     zsh-autosuggestions
     zsh-syntax-highlighting
 )
@@ -28,6 +36,7 @@ alias lla="lsd -la"
 alias l="lsd -l"
 alias ll="lsd -l"
 alias n="nvim"
+alias nv="neovide"
 
 export LC_ALL=en_US.UTF-8
 export BAT_THEME="OneHalfDark"
